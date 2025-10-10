@@ -9,14 +9,14 @@
 <para><anchor id="index_1md_output_bsps_TARGET_KIT_PSE84_AI_README"/> </para>
 <sect1 id="index_1autotoc_md1">
 <title>Overview</title>
-<para>The PSOC™ Edge E84 AI Kit (KIT_PSE84_AI) is based on the PSOC™ Edge family of devices. It enables the evaluation and development of applications for the PSOC™ Edge E84 MCU.</para>
+<para>The PSOC™ Edge E84 AI Kit (KIT_PSE84_AI) is based on the PSOC™ Edge family of devices. It enables the evaluation and development of applications for the PSOC™ Edge E84 EPC2 MCU.</para>
 <para><image type="html" name="board.png" inline="yes"></image>
 </para>
 <para>To use code from the BSP, simply include a reference to <computeroutput>cybsp.h</computeroutput>.</para>
 </sect1>
 <sect1 id="index_1autotoc_md2">
 <title>Features</title>
-<para>This evaluation kit carries a PSOC™ E84 MCU (PSE846GPS2DBZC4A). The kit also has 512-Mbit QSPI flash, 128-Mbit Octal RAM and on-board LBEE5HY2FY module with Wi-Fi/Bluetooth&amp;#174; connectivity. The board features an on-board programmer/debugger (KitProg3), expansion IO header, R-Pi compatible MIPI-DSI, analog and digital microphones, USB device Type-C connector, 6-axis IMU sensor, 3-axis magnetometer, barometric pressure sensor, humidity sensor, radar, user LEDs, and a user button. The MCU power domain and peripheral power domain supports following operating voltages - 1.8 V, 3.3 V.</para>
+<para>This evaluation kit carries a PSOC™ E84 MCU (PSE846GPS2DBZC4A). The kit also has 512-Mbit QSPI flash, 128-Mbit Octal RAM and on-board LBEE5HY2FY module with Wi-Fi/Bluetooth® connectivity. The board features an on-board programmer/debugger (KitProg3), expansion IO header, R-Pi compatible MIPI-DSI, analog and digital microphones, USB device Type-C connector, 6-axis IMU sensor, 3-axis magnetometer, barometric pressure sensor, humidity sensor, radar, user LEDs, and a user button. The MCU power domain and peripheral power domain supports following operating voltages - 1.8 V, 3.3 V.</para>
 </sect1>
 <sect1 id="index_1autotoc_md3">
 <title>BSP Configuration</title>
@@ -42,12 +42,12 @@
 <row>
 <entry thead="no" align='center'><para>CLK_HF1   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH0   </para>
-</entry><entry thead="no" align='center'><para>399 MHz    </para>
+</entry><entry thead="no" align='center'><para>400 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF2   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH2   </para>
-</entry><entry thead="no" align='center'><para>299 MHz    </para>
+</entry><entry thead="no" align='center'><para>300 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF3   </para>
@@ -57,7 +57,7 @@
 <row>
 <entry thead="no" align='center'><para>CLK_HF4   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH0   </para>
-</entry><entry thead="no" align='center'><para>399 MHz    </para>
+</entry><entry thead="no" align='center'><para>400 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF5   </para>

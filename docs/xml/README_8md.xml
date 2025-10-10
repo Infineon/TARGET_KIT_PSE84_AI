@@ -11,14 +11,14 @@
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">The<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>AI<sp/>Kit<sp/>(KIT\_PSE84\_AI)<sp/>is<sp/>based<sp/>on<sp/>the<sp/>PSOC™<sp/>Edge<sp/>family<sp/>of<sp/>devices.<sp/>It<sp/>enables<sp/>the<sp/>evaluation<sp/>and<sp/>development<sp/>of<sp/>applications<sp/>for<sp/>the<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>MCU.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>AI<sp/>Kit<sp/>(KIT\_PSE84\_AI)<sp/>is<sp/>based<sp/>on<sp/>the<sp/>PSOC™<sp/>Edge<sp/>family<sp/>of<sp/>devices.<sp/>It<sp/>enables<sp/>the<sp/>evaluation<sp/>and<sp/>development<sp/>of<sp/>applications<sp/>for<sp/>the<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>EPC2<sp/>MCU.</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">![](board.png)</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">To<sp/>use<sp/>code<sp/>from<sp/>the<sp/>BSP,<sp/>simply<sp/>include<sp/>a<sp/>reference<sp/>to<sp/>`cybsp.h`.</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
-<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth\&amp;\#174;<sp/>connectivity.<sp/></highlight></codeline>
+<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth®<sp/>connectivity.<sp/></highlight></codeline>
 <codeline><highlight class="normal"><sp/>The<sp/>board<sp/>features<sp/>an<sp/>on\-board<sp/>programmer/debugger<sp/>(KitProg3\),<sp/>expansion<sp/>IO<sp/>header,<sp/>R\-Pi<sp/>compatible<sp/>MIPI\-DSI,<sp/>analog<sp/>and<sp/>digital<sp/>microphones,<sp/>USB<sp/>device<sp/>Type\-C<sp/>connector,<sp/>6\-axis<sp/>IMU<sp/>sensor,<sp/>3\-axis<sp/>magnetometer,<sp/>barometric<sp/>pressure<sp/>sensor,<sp/>humidity<sp/>sensor,<sp/>radar,<sp/>user<sp/>LEDs,<sp/>and<sp/>a<sp/>user<sp/>button.<sp/>The<sp/>MCU<sp/>power<sp/>domain<sp/>and<sp/>peripheral<sp/>power<sp/>domain<sp/>supports<sp/>following<sp/>operating<sp/>voltages<sp/>\-<sp/>1\.8<sp/>V,<sp/>3\.3<sp/>V.</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>BSP<sp/>Configuration</highlight></codeline>
@@ -36,10 +36,10 @@
 <codeline><highlight class="normal">|<sp/><sp/>Clock<sp/><sp/><sp/>|<sp/><sp/><sp/>Source<sp/><sp/>|<sp/>Output<sp/>Frequency<sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>:------:<sp/>|<sp/>:-------:<sp/>|<sp/>:--------------:<sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF0<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF1<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>399<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF2<sp/><sp/>|<sp/>CLK_PATH2<sp/>|<sp/><sp/><sp/><sp/><sp/>299<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF1<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>400<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF2<sp/><sp/>|<sp/>CLK_PATH2<sp/>|<sp/><sp/><sp/><sp/><sp/>300<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF3<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF4<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>399<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF4<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>400<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF5<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF6<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF7<sp/><sp/>|<sp/>CLK_PATH1<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/>49<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
