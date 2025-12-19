@@ -13,13 +13,15 @@
 <codeline></codeline>
 <codeline><highlight class="normal">The<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>AI<sp/>Kit<sp/>(KIT\_PSE84\_AI)<sp/>is<sp/>based<sp/>on<sp/>the<sp/>PSOC™<sp/>Edge<sp/>family<sp/>of<sp/>devices.<sp/>It<sp/>enables<sp/>the<sp/>evaluation<sp/>and<sp/>development<sp/>of<sp/>applications<sp/>for<sp/>the<sp/>PSOC™<sp/>Edge<sp/>E84<sp/>EPC2<sp/>MCU.</highlight></codeline>
 <codeline></codeline>
+<codeline></codeline>
 <codeline><highlight class="normal">![](board.png)</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">To<sp/>use<sp/>code<sp/>from<sp/>the<sp/>BSP,<sp/>simply<sp/>include<sp/>a<sp/>reference<sp/>to<sp/>`cybsp.h`.</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
-<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth®<sp/>connectivity.<sp/></highlight></codeline>
-<codeline><highlight class="normal"><sp/>The<sp/>board<sp/>features<sp/>an<sp/>on\-board<sp/>programmer/debugger<sp/>(KitProg3\),<sp/>expansion<sp/>IO<sp/>header,<sp/>R\-Pi<sp/>compatible<sp/>MIPI\-DSI,<sp/>analog<sp/>and<sp/>digital<sp/>microphones,<sp/>USB<sp/>device<sp/>Type\-C<sp/>connector,<sp/>6\-axis<sp/>IMU<sp/>sensor,<sp/>3\-axis<sp/>magnetometer,<sp/>barometric<sp/>pressure<sp/>sensor,<sp/>humidity<sp/>sensor,<sp/>radar,<sp/>user<sp/>LEDs,<sp/>and<sp/>a<sp/>user<sp/>button.<sp/>The<sp/>MCU<sp/>power<sp/>domain<sp/>and<sp/>peripheral<sp/>power<sp/>domain<sp/>supports<sp/>following<sp/>operating<sp/>voltages<sp/>\-<sp/>1\.8<sp/>V,<sp/>3\.3<sp/>V.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth®<sp/>connectivity.<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">The<sp/>board<sp/>features<sp/>an<sp/>on\-board<sp/>programmer/debugger<sp/>(KitProg3\),<sp/>expansion<sp/>IO<sp/>header,<sp/>R\-Pi<sp/>compatible<sp/>MIPI\-DSI,<sp/>analog<sp/>and<sp/>digital<sp/>microphones,<sp/>USB<sp/>device<sp/>Type\-C<sp/>connector,<sp/>6\-axis<sp/>IMU<sp/>sensor,<sp/>3\-axis<sp/>magnetometer,<sp/>barometric<sp/>pressure<sp/>sensor,<sp/>humidity<sp/>sensor,<sp/>radar,<sp/>user<sp/>LEDs,<sp/>and<sp/>a<sp/>user<sp/>button.<sp/>The<sp/>MCU<sp/>power<sp/>domain<sp/>and<sp/>peripheral<sp/>power<sp/>domain<sp/>supports<sp/>following<sp/>operating<sp/>voltages<sp/>\-<sp/>1\.8<sp/>V,<sp/>3\.3<sp/>V.</highlight></codeline>
+<codeline></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>BSP<sp/>Configuration</highlight></codeline>
 <codeline></codeline>
@@ -130,9 +132,9 @@
 <codeline><highlight class="normal">##<sp/>More<sp/>information</highlight></codeline>
 <codeline><highlight class="normal">*<sp/>[KIT_PSE84_AI<sp/>BSP<sp/>API<sp/>Reference<sp/>Manual][api]</highlight></codeline>
 <codeline><highlight class="normal">*<sp/>[KIT_PSE84_AI<sp/>Documentation](https://www.infineon.com/KIT_PSE84_AI)</highlight></codeline>
-<codeline><highlight class="normal">*<sp/>[Cypress<sp/>Semiconductor,<sp/>an<sp/>Infineon<sp/>Technologies<sp/>Company](http://www.cypress.com)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Infineon<sp/>Technologies<sp/>AG](https://www.infineon.com)</highlight></codeline>
 <codeline><highlight class="normal">*<sp/>[Infineon<sp/>GitHub](https://github.com/Infineon)</highlight></codeline>
-<codeline><highlight class="normal">*<sp/>[ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[ModusToolbox™](https://www.infineon.com/modustoolbox)</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">[api]:<sp/>modules.html</highlight></codeline>
 <codeline><highlight class="normal">[settings]:<sp/>md_bsp_settings.html</highlight></codeline>

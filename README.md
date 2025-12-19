@@ -4,13 +4,15 @@
 
 The PSOC™ Edge E84 AI Kit (KIT\_PSE84\_AI) is based on the PSOC™ Edge family of devices. It enables the evaluation and development of applications for the PSOC™ Edge E84 EPC2 MCU.
 
+
 ![](docs/html/board.png)
 
 To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ## Features
 This evaluation kit carries a PSOC™ E84 MCU (PSE846GPS2DBZC4A). The kit also has 512\-Mbit QSPI flash, 128\-Mbit Octal RAM and on\-board LBEE5HY2FY module with Wi\-Fi/Bluetooth® connectivity.
- The board features an on\-board programmer/debugger (KitProg3\), expansion IO header, R\-Pi compatible MIPI\-DSI, analog and digital microphones, USB device Type\-C connector, 6\-axis IMU sensor, 3\-axis magnetometer, barometric pressure sensor, humidity sensor, radar, user LEDs, and a user button. The MCU power domain and peripheral power domain supports following operating voltages \- 1\.8 V, 3\.3 V.
+The board features an on\-board programmer/debugger (KitProg3\), expansion IO header, R\-Pi compatible MIPI\-DSI, analog and digital microphones, USB device Type\-C connector, 6\-axis IMU sensor, 3\-axis magnetometer, barometric pressure sensor, humidity sensor, radar, user LEDs, and a user button. The MCU power domain and peripheral power domain supports following operating voltages \- 1\.8 V, 3\.3 V.
+
 
 ## BSP Configuration
 
@@ -121,9 +123,9 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 ## More information
 * [KIT_PSE84_AI BSP API Reference Manual][api]
 * [KIT_PSE84_AI Documentation](https://www.infineon.com/KIT_PSE84_AI)
-* [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
+* [Infineon Technologies AG](https://www.infineon.com)
 * [Infineon GitHub](https://github.com/infineon)
-* [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
+* [ModusToolbox™](https://www.infineon.com/modustoolbox)
 
 [api]: https://infineon.github.io/TARGET_KIT_PSE84_AI/html/modules.html
 [settings]: https://infineon.github.io/TARGET_KIT_PSE84_AI/html/md_bsp_settings.html
