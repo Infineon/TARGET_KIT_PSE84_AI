@@ -19,7 +19,7 @@
 <codeline><highlight class="normal">To<sp/>use<sp/>code<sp/>from<sp/>the<sp/>BSP,<sp/>simply<sp/>include<sp/>a<sp/>reference<sp/>to<sp/>`cybsp.h`.</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
-<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth®<sp/>connectivity.<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">This<sp/>evaluation<sp/>kit<sp/>carries<sp/>a<sp/>PSOC™<sp/>E84<sp/>MCU<sp/>(PSE846GPS2DBZC4A).<sp/>The<sp/>kit<sp/>also<sp/>has<sp/>512\-Mbit<sp/>QSPI<sp/>flash,<sp/>128\-Mbit<sp/>Octal<sp/>RAM<sp/>and<sp/>on\-board<sp/>LBEE5HY2FY<sp/>module<sp/>with<sp/>Wi\-Fi/Bluetooth®<sp/>connectivity.<sp/><sp/></highlight></codeline>
 <codeline><highlight class="normal">The<sp/>board<sp/>features<sp/>an<sp/>on\-board<sp/>programmer/debugger<sp/>(KitProg3\),<sp/>expansion<sp/>IO<sp/>header,<sp/>R\-Pi<sp/>compatible<sp/>MIPI\-DSI,<sp/>analog<sp/>and<sp/>digital<sp/>microphones,<sp/>USB<sp/>device<sp/>Type\-C<sp/>connector,<sp/>6\-axis<sp/>IMU<sp/>sensor,<sp/>3\-axis<sp/>magnetometer,<sp/>barometric<sp/>pressure<sp/>sensor,<sp/>humidity<sp/>sensor,<sp/>radar,<sp/>user<sp/>LEDs,<sp/>and<sp/>a<sp/>user<sp/>button.<sp/>The<sp/>MCU<sp/>power<sp/>domain<sp/>and<sp/>peripheral<sp/>power<sp/>domain<sp/>supports<sp/>following<sp/>operating<sp/>voltages<sp/>\-<sp/>1\.8<sp/>V,<sp/>3\.3<sp/>V.</highlight></codeline>
 <codeline></codeline>
 <codeline></codeline>
